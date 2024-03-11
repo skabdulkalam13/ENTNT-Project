@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Set the background color of the body to skyblue */
+body {
+  background-color: skyblue;
+}
+
+/* Center align text in the .App class */
+.App {
+  text-align: center;
+}
+
+/* Style for the logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation for the logo spin */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.h2{
+  text-align: center !important;
+}
+.product-list{
+  text-align: left !important;
+}
+
+/* Style for the header */
+.App-header {
+  background-color: #0a40ad;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Style for the link */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes for logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style for the search bar */
+.SearchBar {
+  margin-bottom: 20px;
+}
+
+.SearchInput {
+  padding: 15px;
+  width: 400px;
+  font-size: 16px;
+  /* Add the following line */
+  ::placeholder {
+    font-size: 18px;
+  }
+}
+
+
+.SearchButton {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .SearchInput {
+    width: 80%;
+  }
+}

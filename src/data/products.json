@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Nike", "category": "Category 1", "price": 10, "stock_quantity": 100 },
+    { "id": 2, "name": "Adidas", "category": "Category 2", "price": 20, "stock_quantity": 50 },
+    { "id": 3, "name": "Apple", "category": "Category 1", "price": 15, "stock_quantity": 80 },
+    { "id": 4, "name": "Samsung", "category": "Category 3", "price": 30, "stock_quantity": 70 },
+    { "id": 5, "name": "Sony", "category": "Category 2", "price": 25, "stock_quantity": 120 },
+    { "id": 6, "name": "Microsoft", "category": "Category 1", "price": 12, "stock_quantity": 90 },
+    { "id": 7, "name": "Google", "category": "Category 3", "price": 35, "stock_quantity": 60 },
+    { "id": 8, "name": "Coca-Cola", "category": "Category 2", "price": 22, "stock_quantity": 110 },
+    { "id": 9, "name": "Pepsi", "category": "Category 1", "price": 18, "stock_quantity": 85 },
+    { "id": 10, "name": "Toyota", "category": "Category 3", "price": 40, "stock_quantity": 100 }
+]
